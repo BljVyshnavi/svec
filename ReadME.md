@@ -66,5 +66,69 @@
 	  - nav
 	    - ul
 		- ol
+
+# css
++ cascading style sheets 
++ inline CSS
++ internal CSS
++ external CSS
+
+# syntax for css
+...
+selector{
+	css properties
+}
+...
+# selectors
++ simple selectors
+- by element name
+- grouping elements(,)
+- class selector
+- id selector
++ combinators
+ + descendent selector( )
+ + child selector(>)(styles r applicalble to only child)
+ + adjacent selector(+)(styles r applicable to adjacent lines)
+ + general sibling selector(~)(after div 4 all styles r applied)
++ pseudo class selector(:)
++ pseudo element selector(::)
++ attribute selector
+
+# box model
+- margin
+- border
+- padding
+  - padding: 10px(all sides)
+  - padding: 10px 30px (t&b,l&r)
+  - padding: 10px 30px 50px (t,l&r,b)
+  - padding: 10px 30px 50px 4px(t,r,b,l)
+- width
+- rem=16px
+
+# flex box
+- display property
+- position
+ - static
+ - relative
+ - absolute
+ - fixed 
+ - sticky
+- allign content
+- allign items
+- allign self
+
+
 # reference links
-- [flaticon](https:/flaticon)
+- [flaticon](https:/flaticon);[svgicons]
+- [colorcodes]
+- [contrastchecker]
+# html elements
+- audio
+- video
+- canvas
+- progress
+- meter
+- datalist
+- select
+
+
