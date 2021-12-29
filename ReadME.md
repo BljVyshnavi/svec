@@ -67,7 +67,7 @@
 	    - ul
 		- ol
 
-# css
+### css
 + cascading style sheets 
 + inline CSS
 + internal CSS
@@ -105,8 +105,19 @@ selector{
 - width
 - rem=16px
 
+# respnsive web design 
+
 # flex box
 - display property
+- flex
+  + flex-wrap
+  + justify-content
+  + flex-directiom
+  + flex-flow
+- none
+- inline
+- block
+- inline-block
 - position
  - static
  - relative
@@ -117,6 +128,76 @@ selector{
 - allign items
 - allign self
 
+# media quries
+- extra small(mobiles)
+   - max width:600px
+- small(large phones,tabs)
+   - min-width:600px
+   - 768px
+- medium(small laptops)
+  - min-width:768px
+- large(large laptops)
+  - min-width:992px
+- extra large(big screens)
+  - min-width:1200px
+... 
+@media only screen(min-width:320px) and (max-width:500px)
+  {
+  css code
+}
+ ...
+# boostrap 4.6 framework
+- it is a css framework
+- module(collection of functions and classes)
+- package(collection of modules)
+- library(collection of packages)
+- framework(collection of libraries)
+-  module -->package --> library -->framework
+
+# types of boostrap modes
+- offline
+- online 
+  - CDN links
+- background colour- colour -bg
+- text-white
++ margin in boostrap
+    - 0 --> 0rem
+    - 1 --> 0.25rem (4px)
+    - 2 --> 0.5rem (8px)
+    - 3 --> 1rem (12px)
+    - 4 --> 1.5rem (24px)
+    - 5 --> 3rem (48px)  
++ ml-5 (margin left)
++ m-(margin all directions)
++ mr-(margin right)
++ mt-(margin top)
++  mb-(margin bottom)
++ padding(padding-left --> pl-5)
++ colors
+  - primary
+  - secondary
+  - info
+  - success
+  - warning
+  - danger
+  - light
+  - dark
+  - white
++ we can use color classes for
+- buttons(btn btn-primary)
+- text(text-white)
+- background(bg-secondary)
+- alerts(alert alert-primary)
+
+# task3:
+- nav bar with responsive
+
+# grid system
+- syntax: col-sm-12
+- sm(small devices)
+- md(medium )
+- lg(large devices)
+- xl(extra large)
 
 # reference links
 - [flaticon](https:/flaticon);[svgicons]
