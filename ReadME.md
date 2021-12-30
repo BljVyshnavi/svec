@@ -199,6 +199,55 @@ selector{
 - lg(large devices)
 - xl(extra large)
 
+#  javascript
+- 1995 'brenden eich' introduced javascript(ES-262)
+- javascript loosely touple and dynamic lang
+- text based programming language and we can run client-side and server-side(node.js) for dynamic web applications
+- ECMA-script (ES-6).some functions are:
+  - let & const
+  - map
+  - arrow
+  - classes
++ datatypes
+- Number
+- BibInt(2^53-1)
+- string
+- boolean
+- undefined
+- null
+- object
+- arrays
+
++ variables 
+- var,let,const
+- scope
+  - function level --> var
+  - block level --> let & const
+- redefined  --> let,var
+- redeclare  --> var only
++ typeof()
++ Object
+...
+{
+  name="vaish"
+}...
++ Array
+# alerts
+ - to generate notification 
+  - alert
+  - prompt(to take input from user)
+  - confirm
+
+- console statements
+  - console.log()
+  - console.info()
+  - console.warn()
+  - console.error()
+
++ spread operator
+...
+    ...var name
+...
 # reference links
 - [flaticon](https:/flaticon);[svgicons]
 - [colorcodes]
