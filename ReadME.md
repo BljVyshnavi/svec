@@ -245,9 +245,34 @@ selector{
   - console.error()
 
 + spread operator
+- to change array elements from 1 aray to other
 ...
     ...var name
 ...
+
++ rest parameter
+  + to handle function parameter
+  ...
+    ...paramter
+  ...
+
++ destructuring of array & objects
+
++ functions
+- function with func name
+...
+function demo(x,y){
+  return x+y
+}
+demo()
+...
+- Anonymous function
+... 
+let demo= function(x,y)
+{
+  return x+y
+}
+
 # reference links
 - [flaticon](https:/flaticon);[svgicons]
 - [colorcodes]
