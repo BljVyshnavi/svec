@@ -272,11 +272,77 @@ let demo= function(x,y)
 {
   return x+y
 }
+...
+let demo= (x,y) => {
+    return x*y
+}
+console.log(demo(3,4))
+...
+- for in
+  - to get no.of elements
+- for of
+  - to get elements
+- for each -->(ES-5)
+- map -->(ES-6)
+
+# DOM
+- Document Object Model
+- document
+- history
+- window
+- navigator(pwa-progressive web applications)
++ DOM methods
+  - `getElementById()(to call only id)` 
+  - `querySelector(to call any ele)`
+  - `nertext `
+  - `textcontent`
+  - `append`
+  - `appendchild`
+  - `innerHTML`
+  - `setAttribute()`
+  - `classList`
+  - `style`
+  - `src`
+
+ - (difference b/w innertext and textcontent?)
+
+ # JSON
+ - javascript object notation
+ - to exchange info between application and server
+ ...
+ {
+  "name":"vaish",
+  "age":"18",
+  "phno":1234
+ }
+ ...
++ Ajax call or promises(fetch API) or axios
+
+# frontend with React JS
+- It is a library
+- it followa component based architecture
+  - Function
+  - class
+  - higher order
+- it provides Virtual DOM
+- unidirectional data flow
+- SinglePage applications
+- Project environment 
+    - [downloadNODE.JS](https://nodejs.org/en/download/)
+    - install node js and check version of `node`and`npm`
+      - `node -v`
+      - `npm -v`
+    - `webpack` and `babel`
+    - `create-react-app`
+      - `npm install ccreate-react-app`(node package manager)
+       - `create-react-app projeactname`
+      - `npx create-react-app projectname`(node package runner)
 
 # reference links
 - [flaticon](https:/flaticon);[svgicons]
 - [colorcodes]
 - [contrastchecker]
+
 # html elements
 - audio
 - video

@@ -113,11 +113,5 @@
 
 
 //map without func
-//  let p=["x","y","z"]
-//  let r=p.map((element,index)=>
-//  {
-//      return element+" k"
-//   })
-//  console.log(p)
-//  console.log(r)
+// 
 
