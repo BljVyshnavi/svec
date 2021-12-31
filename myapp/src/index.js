@@ -4,11 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Functional from './components/Functional';
+import Unionbank from './components/Unionbank';
+import Andhrabank from './components/Andhrabank';
+import Stateinclasscomp from './components/Stateinclasscomp';
+import Statesinfuncomp from './components/Statesinfuncomp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Functional/>
+    {/* <App />
+    <Functional/> */}
+    {/* <Unionbank /> */}
+    {/* <Unionbank /> */}
+    <Stateinclasscomp />
+    {/* <Statesinfuncomp /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

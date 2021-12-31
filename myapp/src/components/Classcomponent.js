@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 
 
-class classcomponent extends Component{
+class Classcomponent extends Component{
     render(){
         return(
-            <h1>new year</h1>
+            <>
+            <h1>New Year</h1>
+            <h1>New Year</h1>
+            <input type="text"/>
+            </>
         )
     }
 }
-
-export default classcomponent;
+export default Classcomponent;
