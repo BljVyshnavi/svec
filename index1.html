@@ -4,60 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript</title>
+   <script src="./index.js"></script>
 </head>
 <body>
-    <header>
-        <img src="./logo.jpg" alt="SVEC-logo" height="10%" width="10%">  
-         <span>Sree vidhyanikethan</span>
-    </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="./Home.html">Home</a>
-            </li>
-            <li>
-                <a href="./source.html">source</a>
-            </li>
-            <li>
-                <a href="./contact.html">contact</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="main">
+        <div class="child">
+            <h1 id="demo">HELLO
+                <span>text</span>
+            </h1>
+        </div>
 
-<div>
-    <table border="5">
-        <thead>
-            <tr>
-                <th>s.no</th>
-                <th>name</th>
-                <th>qualification</th>
-                <th>college</th>
-                <th>marks</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>vaishu</td>
-                <td>BTech</td>
-                <td>svec</td>
-                <td>85</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>lahari</td>
-                <td>B.com</td>
-                <td>nbkr</td>
-                <td>79</td>
-            </tr>
+    </div>
+    <script>
+    var main=document.querySelector(".main");
+    var child=document.querySelector(".child");
 
-            
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-</div>
+       var heading=document.createElement("h1");
+       heading.textContent="welcome";
+        child.appendChild(heading);
+        main.appendChild(child);
+        var c=document.getElementById("demo").innerHTML;
+        console.log(c)
+    
+    </script>
 </body>
 </html>
