@@ -325,9 +325,47 @@ console.log(demo(3,4))
   - class
   - higher order
 - it provides Virtual DOM
+- it provides jsx(javascript and XML)
 - unidirectional data flow
 - SinglePage applications
-- Project environment 
+
++ props
+- to pass data from 1 component to other
+- they are immutable
+
++ unionbank(Functional)
+  - andhra bank(Functional)
+  - corportion banK(Class)
+
++ States
+- in react to maintain info we will use states
+- we can maintain class states in class components(before react16.8 )
+- to take state react ,try to create constructor above render and inside of class component.
+...
+constructor(){
+  super();
+  this.states={
+
+  }
+}...
+- to update the state info in class component by`setState()`
+- to update the info in class component we have to use these
+  - `componentWillRecieveProps()`
+  - `componentWillMount()`
+  - `componentWillUnmount()`
+  - `componentWillUpdate()`
+  - `componentDidMount()`etc
+# Hooks
+- from rect16.8 Hooks are introduced
+- Parent --> child1 --> child2
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()` 
+
+
++ Project environment setup
     - [downloadNODE.JS](https://nodejs.org/en/download/)
     - install node js and check version of `node`and`npm`
       - `node -v`
@@ -337,7 +375,39 @@ console.log(demo(3,4))
       - `npm install ccreate-react-app`(node package manager)
        - `create-react-app projeactname`
       - `npx create-react-app projectname`(node package runner)
++ Index.html
++ Index.js
++ App.js
+  + Indexpage
+  - nav.js
+  - body.js
+  - footer.js
 
+  + Home.js
+  - nav
+  - body
+  - footer
+
+  + Login.js
+  - register
+  - about
+  - contact
+
+# Event handling & Form handling
+- `onchange`
+- `onsubmi`
+- `preventdefault`
+
+# routing
+- to navigate from 1 component to another
+  - install react-router-dom package buy using
+  - `npm install react-router-dom`
+  -  `BrowserRouter`
+  - `Routes`
+  - `Route`
+  - `path`
+  - `element`
+  
 # reference links
 - [flaticon](https:/flaticon);[svgicons]
 - [colorcodes]
