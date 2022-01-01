@@ -47,9 +47,9 @@
 	  - table
   - blocklevel elements
       - h1 to h6
-	  - paragraph
-	  - div
-	  - text will strat from new line
+	  - paragraph(p)
+	  - division(div)
+	  - text will start from new line
 	  - all sematic elements
 
   - Inline elements
@@ -355,8 +355,10 @@ constructor(){
   - `componentWillUnmount()`
   - `componentWillUpdate()`
   - `componentDidMount()`etc
+
 # Hooks
 - from rect16.8 Hooks are introduced
+- to maintain info in Func comp we use hooks
 - Parent --> child1 --> child2
 - `useState()`
 - `useEffect()`
@@ -407,7 +409,12 @@ constructor(){
   - `Route`
   - `path`
   - `element`
-  
+  - `link element`
+
+# redux
+- 
+
+
 # reference links
 - [flaticon](https:/flaticon);[svgicons]
 - [colorcodes]
